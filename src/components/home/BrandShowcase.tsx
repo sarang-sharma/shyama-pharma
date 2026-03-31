@@ -9,7 +9,6 @@ import SectionHeading from '@/components/ui/SectionHeading';
 
 export default function BrandShowcase() {
   const t = useTranslations('brandShowcase');
-  const allBrands = [...brands, ...brands]; // duplicate for infinite scroll
 
   return (
     <section className="bg-neutral-50 py-12 md:py-20">
@@ -34,19 +33,19 @@ export default function BrandShowcase() {
           ))}
         </div>
 
-        {/* Scrolling brand carousel */}
-        <div className="overflow-hidden">
-          <div className="flex animate-scroll gap-6">
-            {allBrands.map((brand, i) => (
-              <div
+        {/* Lightweight text-only scrolling carousel — no images, pure CSS, GPU-accelerated */}
+        <div className="overflow-hidden" aria-hidden="true">
+          <div
+            className="flex animate-scroll gap-4"
+            style={{ willChange: 'transform', transform: 'translateZ(0)' }}
+          >
+            {[...brands, ...brands].map((brand, i) => (
+              <span
                 key={`${brand.id}-${i}`}
-                className="flex shrink-0 items-center gap-2 rounded-lg bg-white px-4 py-2.5 shadow-sm"
+                className="shrink-0 whitespace-nowrap rounded-full border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-700"
               >
-                <BrandLogo brand={brand} size="sm" />
-                <span className="whitespace-nowrap text-sm font-medium text-neutral-700">
-                  {brand.name}
-                </span>
-              </div>
+                {brand.name}
+              </span>
             ))}
           </div>
         </div>
