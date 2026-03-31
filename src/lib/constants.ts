@@ -15,7 +15,7 @@ export const COMPANY = {
     line2: 'Govind Mitra Road, Patna, Bihar - 800004',
     full: 'A-2, Anand Bhawan Market, Govind Mitra Road, Patna, Bihar - 800004',
   },
-  googleMapsUrl: 'https://www.google.com/maps/dir//A-2,+Anand+Bhawan+Market,+Govind+Mitra+Road,+Patna,+Bihar+800004',
+  googleMapsUrl: 'https://maps.app.goo.gl/a142KhkMJuTetJqV9',
   goddessImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kali_by_Raja_Ravi_Varma.jpg/400px-Kali_by_Raja_Ravi_Varma.jpg',
   founded: 1995,
   yearsInBusiness: new Date().getFullYear() - 1995,

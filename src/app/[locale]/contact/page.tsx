@@ -165,7 +165,7 @@ function ContactContent() {
           </h2>
           <div className="overflow-hidden rounded-2xl border border-neutral-200 shadow-sm">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.9!2d85.1491!3d25.6107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed585a0b0b0001%3A0x1!2sGovind+Mitra+Rd%2C+Patna%2C+Bihar+800004!5e0!3m2!1sen!2sin!4v1"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d885!2d85.1569651!3d25.619238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDM3JzA5LjMiTiA4NcKwMDknMzQuMyJF!5e0!3m2!1sen!2sin!4v1"
               width="100%"
               height="400"
               style={{ border: 0 }}

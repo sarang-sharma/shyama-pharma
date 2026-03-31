@@ -60,8 +60,8 @@ export default async function LocaleLayout({
         <meta name="theme-color" content="#0f766e" />
         <meta name="geo.region" content="IN-BR" />
         <meta name="geo.placename" content="Patna" />
-        <meta name="geo.position" content="25.6093;85.1376" />
-        <meta name="ICBM" content="25.6093, 85.1376" />
+        <meta name="geo.position" content="25.619238;85.15954" />
+        <meta name="ICBM" content="25.619238, 85.15954" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
