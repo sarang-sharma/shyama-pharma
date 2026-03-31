@@ -9,12 +9,14 @@ export interface Product {
   packing: string;
   color: string;
   benefits: string[];
+  icon: string;
 }
 
 export const products: Product[] = [
   {
     id: 'multimilk-plus',
     name: 'Multimilk-Plus',
+    icon: '🥛',
     tagline: 'Extra Nutrients & Micro Minerals to Enhance Immunity & Improve Performance',
     description: 'Increases milk and fat percentage, promotes easy let-down of milk, removes stress, increases immunity, promotes udder development and prevents mastitis, overcomes calcium and phosphorous deficiency.',
     category: 'supplement',
@@ -33,6 +35,7 @@ export const products: Product[] = [
     id: 'sanmin-gold',
     name: 'SANMIN Gold',
     nameHi: 'सैनमिन गोल्ड',
+    icon: '⚗️',
     tagline: 'Metho-Chelated Mineral Mixture Powder',
     description: 'Enriched with Bioactive Chromium, Biotin, Bypass Fat & Probiotic. Essential mineral mixture for dairy cattle and livestock with complete mineral and vitamin profile.',
     category: 'mineral',
@@ -49,6 +52,7 @@ export const products: Product[] = [
   {
     id: 'dhab-h',
     name: 'DHAB-H',
+    icon: '💉',
     tagline: 'Unique Multi-Vitamin & Protein Iron Feed Supplement',
     description: 'Veterinary multivitamins liquid supplement for cow, goat, buffalo, dairy cattle, poultry and other livestock animals. Contains Vitamin H, E, A, D3. Ideal supplement for animal feeding.',
     category: 'supplement',
@@ -66,6 +70,7 @@ export const products: Product[] = [
   {
     id: 'jeevcal-gel',
     name: 'Jeevcal Gel',
+    icon: '🧴',
     tagline: 'Comprehensive Nutritional Supplement for Dairy Cattle',
     description: 'Provides Calcium, Phosphorus, Vit A, Vit D3, Vit E, Vit B12, Magnesium, Cobalt, Selenium, Niacin, Pyridoxine & Citric acid with energy base. Prevents milk fever.',
     category: 'supplement',
@@ -82,6 +87,7 @@ export const products: Product[] = [
   {
     id: 'masti-san',
     name: 'Masti-San',
+    icon: '🩺',
     tagline: 'Tri Sodium Citrate Oral Powder with Vit. K & Vit. C',
     description: 'pH care, milk conditioner, antioxidant. An ultimate solution to treat mastitis and get pure milk. Tissue repair, improves milk yield and quality.',
     category: 'treatment',
@@ -99,6 +105,7 @@ export const products: Product[] = [
   {
     id: 'jeevliv-plus',
     name: 'Jeevliv Plus',
+    icon: '🧪',
     tagline: 'Liver Tonic with Multivitamin, Liver Extracts & B-Complex',
     description: 'Anti-stress to counteract stress due to vaccination, deworming, disease, change in feed, weather. Helps restore liver function following liver fluke infection in livestock.',
     category: 'tonic',
@@ -116,6 +123,7 @@ export const products: Product[] = [
   {
     id: 'san-biotics',
     name: 'San-Biotics',
+    icon: '💊',
     tagline: 'A Complete Supportive Treatment — Vet Bolus',
     description: 'Restores appetite, health, productivity. Rumenotonic with Probiotics & Enzymes. Prepared from scientific herbs for stimulation of appetite and utilization of feed.',
     category: 'digestive',
@@ -134,6 +142,7 @@ export const products: Product[] = [
     id: 'pasu-pachak',
     name: 'Pasu Pachak',
     nameHi: 'पशु पाचक',
+    icon: '🌿',
     tagline: 'Strong Appetite Stimulant & Digestive Supplement',
     taglineHi: 'क्षुधावर्धक एवं पाचक आहार',
     description: 'For prevention and treatment of digestive disorders like Anorexia, Dyspepsia, Constipation etc. An adjuvant therapy along with antibiotics, antibacterials, anthelmintics.',

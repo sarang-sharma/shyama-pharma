@@ -9,6 +9,7 @@ export interface Brand {
 export const brands: Brand[] = [
   { id: 'nutrivet', name: 'Nutrivet Farm Care', category: 'super-stockist', color: '#1B5E20', logo: 'https://nutrivetindia.com/images/logo.png' },
   { id: 'ttk', name: 'TTK Healthcare', category: 'super-stockist', color: '#1565C0', logo: 'https://ttkhealthcare.com/wp-content/themes/ttk/assets/images/logo.jpg' },
+  { id: 'sanjeevani', name: 'Sanjeevani Animal Healthcare', category: 'super-stockist', color: '#0f766e' },
   { id: 'vetoquinol', name: 'Vetoquinol', category: 'stockist', color: '#00695C', logo: 'https://www.vetoquinol.com/themes/custom/vetoquinol/integration/public/assets/images/logo.png' },
   { id: 'zydus', name: 'Zydus', category: 'stockist', color: '#D32F2F', logo: 'https://www.zyduslife.com/public/images/zydus-logo.png' },
   { id: 'excellar', name: 'Excellar', category: 'stockist', color: '#E65100', logo: 'https://excellar.in/assets/excellar01logo.jpg' },
@@ -36,6 +37,7 @@ export const brands: Brand[] = [
   { id: 'reality', name: 'Reality', category: 'stockist', color: '#6A1B9A' },
   { id: 'vetsun', name: 'Vetsun', category: 'stockist', color: '#01579B', logo: 'https://i0.wp.com/vetsunbiotech.com/wp-content/uploads/2021/07/cropped-WhatsApp_Image_2021-03-20_at_10.45.25_PM-removebg-preview-1.png?fit=271%2C257&ssl=1' },
   { id: 'biosis', name: 'Biosis', category: 'stockist', color: '#004D40' },
+  { id: 'intas', name: 'Intas Vet Pharma', category: 'stockist', color: '#1e3a5f' },
 ];
 
 export const superStockists = brands.filter((b) => b.category === 'super-stockist');

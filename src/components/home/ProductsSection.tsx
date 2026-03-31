@@ -1,90 +1,79 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/navigation';
 import { products } from '@/data/products';
 import Container from '@/components/ui/Container';
-import SectionHeading from '@/components/ui/SectionHeading';
-
-const categoryIcons: Record<string, string> = {
-  supplement: '💊',
-  mineral: '⚗️',
-  tonic: '🧪',
-  treatment: '🩺',
-  digestive: '🌿',
-};
 
 export default function ProductsSection() {
   const t = useTranslations('products');
 
   return (
-    <section className="bg-secondary-900 py-14 md:py-20">
+    <section className="py-14 md:py-20">
       <Container>
-        {/* Header with Sanjeevani branding */}
+        {/* Header */}
         <div className="mb-12 text-center">
-          <span className="mb-3 inline-block rounded-full border border-primary-400/30 bg-primary-500/10 px-4 py-1.5 text-sm font-medium text-primary-300">
+          <span className="mb-3 inline-block rounded-full bg-primary-100 px-4 py-1.5 text-sm font-semibold text-primary-700">
             {t('badge')}
           </span>
-          <h2 className="text-2xl font-bold text-white md:text-4xl">
+          <h2 className="text-2xl font-bold text-neutral-900 md:text-4xl">
             {t('title')}
           </h2>
-          <p className="mt-2 text-base text-secondary-400 md:text-lg">
+          <p className="mt-2 text-base text-neutral-600 md:text-lg">
             {t('subtitle')}
           </p>
-          <p className="mt-1 text-sm italic text-primary-400">
-            {t('tagline')}
+          <p className="mt-1 text-sm font-medium italic text-primary-600">
+            &ldquo;{t('tagline')}&rdquo;
           </p>
         </div>
 
-        {/* Product cards grid */}
+        {/* Product cards */}
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {products.map((product) => (
             <div
               key={product.id}
-              className="group rounded-2xl border border-secondary-700 bg-secondary-800 p-5 transition-all hover:border-primary-600/50 hover:bg-secondary-700/50"
+              className="group overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm transition-all hover:shadow-md"
             >
-              {/* Product icon & category */}
-              <div className="mb-3 flex items-center justify-between">
-                <span className="text-2xl">{categoryIcons[product.category]}</span>
-                <span
-                  className="rounded-full px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-white"
-                  style={{ backgroundColor: product.color }}
-                >
-                  {t(`categories.${product.category}`)}
-                </span>
+              {/* Colored header strip with icon */}
+              <div
+                className="flex items-center gap-3 px-5 py-4"
+                style={{ backgroundColor: product.color }}
+              >
+                <span className="text-3xl">{product.icon}</span>
+                <div>
+                  <h3 className="font-bold text-white">
+                    {product.name}
+                  </h3>
+                  {product.nameHi && (
+                    <span className="text-xs text-white/70">{product.nameHi}</span>
+                  )}
+                </div>
               </div>
 
-              {/* Name & tagline */}
-              <h3 className="text-lg font-bold text-white">
-                {product.name}
-                {product.nameHi && (
-                  <span className="ml-1.5 text-sm font-normal text-secondary-400">
-                    ({product.nameHi})
+              {/* Body */}
+              <div className="p-5">
+                <p className="text-xs font-medium leading-relaxed text-neutral-600">
+                  {product.tagline}
+                </p>
+
+                {/* Benefits */}
+                <ul className="mt-3 space-y-1.5">
+                  {product.benefits.slice(0, 4).map((b) => (
+                    <li key={b} className="flex items-start gap-2 text-xs text-neutral-700">
+                      <svg className="mt-0.5 h-3.5 w-3.5 shrink-0 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
+                      </svg>
+                      {b}
+                    </li>
+                  ))}
+                </ul>
+
+                {/* Packing */}
+                <div className="mt-4 rounded-lg bg-neutral-50 px-3 py-2">
+                  <span className="text-[10px] font-semibold uppercase tracking-wider text-neutral-500">
+                    {t('packing')}
                   </span>
-                )}
-              </h3>
-              <p className="mt-1 text-xs leading-relaxed text-primary-300">
-                {product.tagline}
-              </p>
-
-              {/* Benefits */}
-              <ul className="mt-3 space-y-1">
-                {product.benefits.slice(0, 3).map((b) => (
-                  <li key={b} className="flex items-start gap-1.5 text-xs text-secondary-300">
-                    <svg className="mt-0.5 h-3 w-3 shrink-0 text-primary-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                    </svg>
-                    {b}
-                  </li>
-                ))}
-              </ul>
-
-              {/* Packing info */}
-              <div className="mt-4 flex items-center gap-1.5 border-t border-secondary-700 pt-3">
-                <span className="text-[10px] font-medium uppercase tracking-wider text-secondary-500">
-                  {t('packing')}:
-                </span>
-                <span className="text-xs text-secondary-300">{product.packing}</span>
+                  <p className="text-xs font-medium text-neutral-800">{product.packing}</p>
+                </div>
               </div>
             </div>
           ))}
