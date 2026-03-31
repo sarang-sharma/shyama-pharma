@@ -34,27 +34,12 @@ function AboutContent() {
         </Container>
       </section>
 
-      {/* Intro with Goddess Shyama */}
+      {/* Intro */}
       <section className="py-12 md:py-16">
         <Container>
-          <div className="mx-auto flex max-w-4xl flex-col items-center gap-8 md:flex-row">
-            <div className="shrink-0">
-              <div className="overflow-hidden rounded-2xl border-4 border-primary-100 shadow-lg">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Kali_by_Raja_Ravi_Varma.jpg/250px-Kali_by_Raja_Ravi_Varma.jpg"
-                  alt="Goddess Shyama (Kali) — painting by Raja Ravi Varma"
-                  className="h-48 w-36 object-cover object-top md:h-56 md:w-44"
-                  loading="lazy"
-                />
-              </div>
-              <p className="mt-2 text-center text-[10px] text-neutral-400">
-                Goddess Shyama — our namesake
-              </p>
-            </div>
-            <p className="text-center text-base leading-relaxed text-neutral-700 md:text-left md:text-lg">
-              {t('intro')}
-            </p>
-          </div>
+          <p className="mx-auto max-w-3xl text-center text-base leading-relaxed text-neutral-700 md:text-lg">
+            {t('intro')}
+          </p>
         </Container>
       </section>
 
