@@ -1,0 +1,16 @@
+{
+  "name": "Shyama Pharma",
+  "short_name": "Shyama",
+  "description": "Bihar's Trusted Veterinary Pharma Distributor",
+  "start_url": "/en/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "title": "Shyama Pharma — Veterinary Medicine Distributor | Patna, Bihar",
+    "description": "Bihar's trusted veterinary pharmaceutical distributor since 1995. Super stockist of Nutrivet & TTK Healthcare. Wholesale veterinary medicines across Bihar.",
+    "aboutTitle": "About Us — Shyama Pharma",
+    "aboutDesc": "Serving Bihar's veterinary community since 1995. Learn about our 30+ year legacy of trust and reliability in veterinary pharmaceutical distribution.",
+    "brandsTitle": "Our Brands — Shyama Pharma",
+    "brandsDesc": "Authorized stockist of 30+ leading veterinary pharmaceutical brands including Vetoquinol, Zydus, Mankind, MSD Intervet, and more.",
+    "servicesTitle": "Our Services — Shyama Pharma",
+    "servicesDesc": "Wholesale veterinary medicine distribution, super stockist services, and state-wide supply network across Bihar.",
+    "contactTitle": "Contact Us — Shyama Pharma",
+    "contactDesc": "Get in touch with Shyama Pharma for veterinary medicine wholesale inquiries. Call, WhatsApp, or visit us in Patna, Bihar."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "brands": "Our Brands",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Trusted Since 1995",
+    "title": "Bihar's Leading Veterinary Pharma Distributor",
+    "subtitle": "Supplying quality veterinary medicines across Bihar for over 30 years. Super stockist of Nutrivet Farm Care & TTK Healthcare.",
+    "cta": "Contact Us",
+    "whatsapp": "WhatsApp Us"
+  },
+  "stats": {
+    "years": "Years of Trust",
+    "brands": "Partner Brands",
+    "coverage": "All-Bihar Coverage",
+    "coverageValue": "38 Districts"
+  },
+  "brandShowcase": {
+    "title": "Our Brand Partners",
+    "subtitle": "Authorized stockist of India's leading veterinary pharmaceutical companies",
+    "superStockist": "Super Stockist",
+    "viewAll": "View All Brands"
+  },
+  "servicesPreview": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive veterinary pharmaceutical distribution solutions",
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "title": "About Shyama Pharma",
+    "subtitle": "Three decades of trust in veterinary pharmaceutical distribution",
+    "intro": "Founded in 1995 in Patna, Shyama Pharma has grown from a small veterinary medicine shop to one of Bihar's most trusted pharmaceutical distributors. We are proud super stockists of Nutrivet Farm Care and TTK Healthcare, serving veterinary professionals and livestock farmers across all 38 districts of Bihar.",
+    "historyTitle": "Our Journey",
+    "milestone1Year": "1995",
+    "milestone1Title": "The Beginning",
+    "milestone1Desc": "Shyama Pharma established in Patna as a veterinary medicine wholesale shop, serving local veterinary doctors and farmers.",
+    "milestone2Year": "2005",
+    "milestone2Title": "Growing Reach",
+    "milestone2Desc": "Expanded distribution network to cover multiple districts of Bihar. Built strong relationships with leading pharmaceutical companies.",
+    "milestone3Year": "2015",
+    "milestone3Title": "Super Stockist Status",
+    "milestone3Desc": "Became super stockist for Nutrivet Farm Care and TTK Healthcare. Stockist network expanded to 25+ brands.",
+    "milestone4Year": "2024",
+    "milestone4Title": "All-Bihar Coverage",
+    "milestone4Desc": "Now supplying 30+ brands across all 38 districts of Bihar. Trusted partner for veterinary professionals statewide.",
+    "missionTitle": "Our Mission",
+    "missionText": "To ensure every veterinary professional and livestock farmer in Bihar has reliable access to quality medicines at competitive prices, delivered with trust and timely service.",
+    "visionTitle": "Our Vision",
+    "visionText": "To be Bihar's most trusted and comprehensive veterinary pharmaceutical distribution partner, supporting the health of millions of animals and the livelihoods of farmers across the state."
+  },
+  "brands": {
+    "title": "Our Brand Partners",
+    "subtitle": "Authorized stockist of India's most trusted veterinary pharmaceutical brands",
+    "superStockistTitle": "Super Stockist Partners",
+    "superStockistDesc": "Our premium partnerships with India's top veterinary pharmaceutical companies",
+    "superStockist": "Super Stockist",
+    "allBrandsTitle": "All Brand Partners",
+    "allBrandsDesc": "Complete range of veterinary medicines from leading companies",
+    "authorizedStockist": "Authorized Stockist"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive veterinary pharmaceutical solutions for Bihar",
+    "distribution": "Distribution Network",
+    "distributionDesc": "State-wide distribution of veterinary medicines reaching every corner of Bihar through our reliable logistics network.",
+    "distributionF1": "Coverage across all 38 districts of Bihar",
+    "distributionF2": "Reliable and timely delivery",
+    "distributionF3": "Temperature-controlled storage facilities",
+    "wholesale": "Wholesale Supply",
+    "wholesaleDesc": "Competitive wholesale pricing on the complete range of veterinary medicines, vaccines, and healthcare products.",
+    "wholesaleF1": "Competitive wholesale pricing",
+    "wholesaleF2": "Complete range of veterinary medicines",
+    "wholesaleF3": "Bulk ordering with flexible payment terms",
+    "stockist": "Super Stockist Services",
+    "stockistDesc": "As super stockists of Nutrivet Farm Care & TTK Healthcare, we maintain large inventories for immediate availability.",
+    "stockistF1": "Large inventory of top brands",
+    "stockistF2": "Quick order fulfillment",
+    "stockistF3": "Dedicated support for sub-distributors",
+    "coverageTitle": "Our Coverage in Bihar",
+    "coverageDesc": "We supply veterinary medicines across all major districts of Bihar",
+    "whyTitle": "Why Choose Shyama Pharma?",
+    "why1Title": "30+ Years Experience",
+    "why1Desc": "Trusted presence in Bihar's veterinary pharma market since 1995",
+    "why2Title": "30+ Brand Partners",
+    "why2Desc": "Authorized stockist of India's top veterinary pharmaceutical brands",
+    "why3Title": "All-Bihar Coverage",
+    "why3Desc": "Distribution network spanning all 38 districts of Bihar",
+    "why4Title": "Competitive Pricing",
+    "why4Desc": "Best wholesale rates with flexible payment options",
+    "why5Title": "Reliable Delivery",
+    "why5Desc": "On-time delivery with proper storage and handling",
+    "why6Title": "Dedicated Support",
+    "why6Desc": "Personal attention and support for every partner"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch for veterinary medicine wholesale inquiries",
+    "infoTitle": "Contact Information",
+    "address": "Address",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "hours": "Business Hours",
+    "formTitle": "Send Us a Message",
+    "formName": "Your Name",
+    "formPhone": "Phone Number",
+    "formEmail": "Email (Optional)",
+    "formMessage": "Your Message",
+    "formSubmit": "Send Message",
+    "formSuccess": "Thank you! We will get back to you soon.",
+    "whatsappCta": "Chat on WhatsApp",
+    "whatsappDesc": "Quick response guaranteed! Chat with us directly on WhatsApp for inquiries.",
+    "mapTitle": "Find Us"
+  },
+  "footer": {
+    "tagline": "Bihar's Trusted Veterinary Pharma Distributor Since 1995",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "copyright": "All rights reserved."
+  },
+  "languageSwitcher": {
+    "hi": "हिन्दी",
+    "en": "English",
+    "mai": "मैथिली"
+  }
+}
