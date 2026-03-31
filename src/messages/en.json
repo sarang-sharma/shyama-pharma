@@ -108,6 +108,22 @@
     "why6Title": "Dedicated Support",
     "why6Desc": "Personal attention and support for every partner"
   },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "Manufactured by Sanjeevani Animal Healthcare Pvt. Ltd.",
+    "tagline": "Your Trusted Partner, Passionate for Animal Health",
+    "badge": "Our Own Brand",
+    "benefits": "Key Benefits",
+    "packing": "Packing",
+    "viewAll": "View All Products",
+    "categories": {
+      "supplement": "Supplement",
+      "mineral": "Mineral Mixture",
+      "tonic": "Liver Tonic",
+      "treatment": "Treatment",
+      "digestive": "Digestive"
+    }
+  },
   "contact": {
     "title": "Contact Us",
     "subtitle": "Get in touch for veterinary medicine wholesale inquiries",

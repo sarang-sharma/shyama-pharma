@@ -5,6 +5,7 @@ import HeroSection from '@/components/home/HeroSection';
 import StatsBar from '@/components/home/StatsBar';
 import BrandShowcase from '@/components/home/BrandShowcase';
 import ServicesPreview from '@/components/home/ServicesPreview';
+import ProductsSection from '@/components/home/ProductsSection';
 import AnimalGallery from '@/components/ui/AnimalGallery';
 
 export async function generateMetadata({
@@ -31,6 +32,7 @@ export default async function HomePage({
       <StatsBar />
       <BrandShowcase />
       <AnimalGallery />
+      <ProductsSection />
       <ServicesPreview />
     </>
   );
