@@ -33,21 +33,16 @@ export default function BrandShowcase() {
           ))}
         </div>
 
-        {/* Lightweight text-only scrolling carousel — no images, pure CSS, GPU-accelerated */}
-        <div className="overflow-hidden" aria-hidden="true">
-          <div
-            className="flex animate-scroll gap-4"
-            style={{ willChange: 'transform', transform: 'translateZ(0)' }}
-          >
-            {[...brands, ...brands].map((brand, i) => (
-              <span
-                key={`${brand.id}-${i}`}
-                className="shrink-0 whitespace-nowrap rounded-full border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-700"
-              >
-                {brand.name}
-              </span>
-            ))}
-          </div>
+        {/* Swipeable brand list — no animation, native scroll, zero jank */}
+        <div className="-mx-4 flex gap-3 overflow-x-auto px-4 pb-3 scrollbar-none sm:-mx-6 sm:px-6" style={{ WebkitOverflowScrolling: 'touch' }}>
+          {brands.map((brand) => (
+            <span
+              key={brand.id}
+              className="shrink-0 whitespace-nowrap rounded-full border border-neutral-200 bg-white px-4 py-2 text-sm font-medium text-neutral-700"
+            >
+              {brand.name}
+            </span>
+          ))}
         </div>
 
         <div className="mt-8 text-center">

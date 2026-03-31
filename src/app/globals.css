@@ -32,14 +32,8 @@
   --font-sans: var(--font-noto-sans), system-ui, sans-serif;
   --font-hindi: var(--font-noto-sans-devanagari), var(--font-noto-sans), system-ui, sans-serif;
 
-  --animate-scroll: scroll 40s linear infinite;
   --animate-pulse-whatsapp: pulse-whatsapp 2s ease-in-out infinite;
   --animate-fade-in-up: fade-in-up 0.6s ease-out forwards;
-}
-
-@keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
 }
 
 @keyframes pulse-whatsapp {
@@ -65,6 +59,10 @@ body {
 .font-hindi {
   font-family: var(--font-hindi);
 }
+
+/* Hide scrollbar but keep scroll functionality */
+.scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }
+.scrollbar-none::-webkit-scrollbar { display: none; }
 
 /* Connection-aware: hide heavy images on slow connections */
 @media (prefers-reduced-data: reduce) {
