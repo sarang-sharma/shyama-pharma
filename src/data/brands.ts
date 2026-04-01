@@ -38,6 +38,7 @@ export const brands: Brand[] = [
   { id: 'vetsun', name: 'Vetsun', category: 'stockist', color: '#01579B', logo: 'https://i0.wp.com/vetsunbiotech.com/wp-content/uploads/2021/07/cropped-WhatsApp_Image_2021-03-20_at_10.45.25_PM-removebg-preview-1.png?fit=271%2C257&ssl=1' },
   { id: 'biosis', name: 'Biosis', category: 'stockist', color: '#004D40' },
   { id: 'intas', name: 'Intas Vet Pharma', category: 'stockist', color: '#1e3a5f', logo: 'https://www.intaspharma.com/wp-content/themes/intas/assets/images/intas_head.png' },
+  { id: 'elanco', name: 'Elanco India', category: 'stockist', color: '#0054a4', logo: 'https://www.elanco.com/content/dam/elanco/images/global/logos/elanco-logo.svg' },
 ];
 
 export const superStockists = brands.filter((b) => b.category === 'super-stockist');
