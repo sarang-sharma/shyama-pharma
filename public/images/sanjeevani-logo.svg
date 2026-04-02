@@ -1,0 +1,16 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Leaf + heartbeat icon -->
+  <g transform="translate(4, 6)">
+    <!-- Leaf shape -->
+    <path d="M24 0C24 0 42 10 42 28C42 38.5 33.7 47 24 48C14.3 47 6 38.5 6 28C6 10 24 0 24 0Z" fill="#0f766e"/>
+    <!-- Vein / heartbeat line inside leaf -->
+    <path d="M12 28L18 28L21 20L24 36L27 24L30 28L36 28" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Small cow silhouette at bottom -->
+    <circle cx="24" cy="42" r="3" fill="#0f766e"/>
+    <ellipse cx="24" cy="44" rx="5" ry="2.5" fill="#0f766e"/>
+  </g>
+  <!-- Text -->
+  <text x="56" y="22" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#0f766e">Sanjeevani</text>
+  <text x="56" y="38" font-family="system-ui, sans-serif" font-size="10" font-weight="500" fill="#115e59" letter-spacing="0.5">Animal Healthcare</text>
+  <text x="56" y="50" font-family="system-ui, sans-serif" font-size="8" font-weight="400" fill="#6b7280">Pvt. Ltd.</text>
+</svg>

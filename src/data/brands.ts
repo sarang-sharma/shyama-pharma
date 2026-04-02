@@ -10,7 +10,7 @@ export const brands: Brand[] = [
   // Super Stockists
   { id: 'nutrivet', name: 'Nutrivet Farm Care', category: 'super-stockist', color: '#1B5E20', logo: 'https://nutrivetindia.com/images/logo.png' },
   { id: 'ttk', name: 'TTK Healthcare', category: 'super-stockist', color: '#1565C0', logo: 'https://ttkhealthcare.com/wp-content/themes/ttk/assets/images/logo.jpg' },
-  { id: 'sanjeevani', name: 'Sanjeevani Animal Healthcare', category: 'super-stockist', color: '#0f766e' },
+  { id: 'sanjeevani', name: 'Sanjeevani Animal Healthcare', category: 'super-stockist', color: '#0f766e', logo: '/images/sanjeevani-logo.svg' },
 
   // Stockists
   { id: 'vetoquinol', name: 'Vetoquinol', category: 'stockist', color: '#00695C', logo: 'https://www.vetoquinol.com/themes/custom/vetoquinol/integration/public/assets/images/logo.png' },
