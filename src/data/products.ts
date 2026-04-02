@@ -158,4 +158,21 @@ export const products: Product[] = [
       'For cows, buffaloes, horses, goats',
     ],
   },
+  {
+    id: 'utri-san',
+    name: 'Utri-San Liquid',
+    icon: '🫧',
+    tagline: 'Intra Uterine Tonic for Uterine Health',
+    description: 'Specialized intra-uterine tonic for maintaining uterine health in cattle and livestock. Supports post-partum recovery, prevents uterine infections, and promotes reproductive health.',
+    category: 'treatment',
+    packing: '1 Lt',
+    color: '#be185d',
+    benefits: [
+      'Maintains uterine health',
+      'Supports post-partum recovery',
+      'Prevents uterine infections',
+      'Promotes reproductive health',
+      'For cattle and livestock',
+    ],
+  },
 ];
