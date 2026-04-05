@@ -9,7 +9,7 @@ export const COMPANY = {
   whatsapp: '918935805714',
   email: 'shyamapharma@gmail.com',
   gst: '10AGGPC1751Q1ZL',
-  drugLicense: 'BR - PAT-437/437A',
+  drugLicense: 'BR0016648&BR001642/1995',
   address: {
     line1: 'A-2, Anand Bhawan Market',
     line2: 'Govind Mitra Road, Patna, Bihar - 800004',

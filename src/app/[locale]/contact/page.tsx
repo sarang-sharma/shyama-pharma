@@ -131,7 +131,7 @@ function ContactContent() {
                   </div>
                   <div>
                     <p className="text-[11px] font-medium uppercase tracking-wider text-neutral-500">Drug License</p>
-                    <p className="text-sm font-semibold text-neutral-800">D.L. {COMPANY.drugLicense}</p>
+                    <p className="text-sm font-semibold text-neutral-800">D.L. No.: {COMPANY.drugLicense}</p>
                   </div>
                 </div>
               </div>

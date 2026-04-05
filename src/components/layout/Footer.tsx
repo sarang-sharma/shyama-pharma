@@ -82,7 +82,7 @@ export default function Footer() {
         <div className="mt-10 border-t border-neutral-800 pt-6">
           <div className="mb-3 flex flex-wrap justify-center gap-x-6 gap-y-1 text-xs text-neutral-500">
             <span>GST: {COMPANY.gst}</span>
-            <span>D.L. {COMPANY.drugLicense}</span>
+            <span>D.L. No.: {COMPANY.drugLicense}</span>
           </div>
           <p className="text-center text-sm text-neutral-500">
             &copy; {year} {COMPANY.name}. {t('copyright')}
